@@ -1,4 +1,10 @@
 #!/bin/bash
+EMAIL="joe"
+PASSWORD="2"
+
+# EMAIL="joe2"
+# PASSWORD="2"
+
 
 API="${API_ORIGIN:-http://localhost:4741}"
 URL_PATH="/sign-in"
