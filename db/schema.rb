@@ -29,7 +29,7 @@ ActiveRecord::Schema.define(version: 20170612143811) do
     t.integer  "guesses_incorrect"
     t.string   "difficulty"
     t.boolean  "game_complete"
-    t.boolean  "game_result"
+    t.string   "game_result"
     t.string   "geography"
     t.integer  "user_id"
     t.datetime "created_at",        null: false

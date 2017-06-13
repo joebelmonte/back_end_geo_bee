@@ -6,7 +6,7 @@ class CreateGames < ActiveRecord::Migration[5.0]
       t.integer :guesses_incorrect
       t.string :difficulty
       t.boolean :game_complete
-      t.boolean :game_result
+      t.string :game_result
       t.string :geography
       t.references :user, foreign_key: true
 

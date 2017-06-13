@@ -1,6 +1,6 @@
 #!/bin/bash
 EMAIL="joe"
-PASSWORD="2"
+PASSWORD="1"
 
 # EMAIL="joe2"
 # PASSWORD="2"
