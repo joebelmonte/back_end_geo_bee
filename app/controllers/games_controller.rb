@@ -46,6 +46,6 @@ class GamesController < ProtectedController
 
     # Only allow a trusted parameter "white list" through.
     def game_params
-      params.require(:game).permit(:guesses_total, :guesses_correct, :guesses_incorrect, :difficulty, :game_complete, :game_result, :geography)
+      params.require(:game).permit(:guesses_total, :guesses_correct, :guesses_incorrect, :difficulty, :game_complete, :game_result, :geography, :map_remaining)
     end
 end

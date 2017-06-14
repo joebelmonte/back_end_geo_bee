@@ -31,9 +31,10 @@ ActiveRecord::Schema.define(version: 20170612143811) do
     t.boolean  "game_complete"
     t.string   "game_result"
     t.string   "geography"
+    t.text     "map_remaining",     default: [],              array: true
     t.integer  "user_id"
-    t.datetime "created_at",        null: false
-    t.datetime "updated_at",        null: false
+    t.datetime "created_at",                     null: false
+    t.datetime "updated_at",                     null: false
     t.index ["user_id"], name: "index_games_on_user_id", using: :btree
   end
 
