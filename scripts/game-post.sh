@@ -1,5 +1,5 @@
 
-TOKEN="BAhJIiU0NDgxMjg5NDZiOTk4MzYxYTQ3ODJiZjEzNDA0ZGJkMAY6BkVG--fbbbdd4223a6b72078051f4edfb5ae2063a149cc"
+TOKEN="BAhJIiVkNzZkOGVjN2YzMGNiMDE0ZWI3MDIwNjRkNzFjNWVjNQY6BkVG--69681644b64e2721cca27d24df78c1957ca174db"
 
 
 API="${API_ORIGIN:-http://localhost:4741}"
@@ -18,7 +18,9 @@ curl "${API}${URL_PATH}" \
       "game_complete": "'"true"'",
       "game_result": "'"lost"'",
       "geography": "'"USA"'",
-      "map_remaining": "'"[ma,me,de,ca,]"'"
+      "map_remaining": "'"[ma,me,de,ca,]"'",
+      "map_completed": "'"[ny,az,wa,hi,]"'",
+      "process_of_elimination": "'"on"'"
     }
   }'
 
