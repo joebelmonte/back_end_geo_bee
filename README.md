@@ -35,7 +35,7 @@
 
 ### Technologies Used
 
-My backend is built using the Rails API and a postgresql database.  I chose this
+My backend is built using the Rails API template and a postgresql database.  I chose this
 approach because I had success with these technologies during project 2 and I was
 confident that they would fulfill my requirements here.
 
@@ -45,4 +45,4 @@ For the most part the back end architecture is fairly straightforward.  There is
 
 ### Major Hurdles/Unsolved Problems
 
-Since the database is relatively simple, I didn’t run into too many issues, but there was 1 worth mentioning.  In order to implement the save/resume game feature, I need to save various game-state data to the database.  Most of this data is simple, just integers or strings (e.g., number of correct guesses or difficulty level).  However, I also needed to store the US States that had been guessed correctly or were still left outstanding, and for that I needed to store arrays.  This took a little research since we hadn’t done it before, but ultimately I was able to figure it out with a bit of Internet sleuthing and a lot of trial and error.
+Since the database is relatively simple, I didn’t run into too many issues, but there was 1 worth mentioning.  In order to implement the save/resume game feature, I needed to save various game-state data to the database.  Most of this data is simple, just integers or strings (e.g., number of correct guesses or difficulty level).  However, I also needed to store the US States that had been guessed correctly or were still left outstanding, and for that I needed to store arrays.  This took a little research since we hadn’t done it before, but ultimately I was able to figure it out with a bit of Internet sleuthing and a lot of trial and error.
